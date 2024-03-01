@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,63 @@
 </head>
 
 <body>
-
+    <header class="container mx-auto pt-6">
+        <nav class="pb-6">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <h2 class="text-3xl font-bold">tubeMa<span class="text-red-600">x</span></h2>
+                </div>
+                <div class="navbar-center">
+                    <button class="btn rounded-md text-lg font-medium">Sort By View</button>
+                </div>
+                <div class="navbar-end">
+                    <button
+                        class="btn btn-primary rounded-md text-lg font-medium text-white bg-red-600 hover:bg-red-500 border-none">
+                        Blog
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <hr>
+    </header>
+    <main class="container mx-auto">
+        <!-- category section -->
+        <section class="py-6">
+            <div class="text-center">
+                <button class="btn text-lg font-semibold rounded-md">Comedy</button>
+            </div>
+        </section>
+        <!-- videos card section -->
+        <section class="py-6">
+            <div id="card-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="card card-compact w-96 bg-base-100 shadow-md rounded-lg">
+                    <figure class="rounded-b-lg"><img
+                            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" />
+                    </figure>
+                    <div class="card-body flex-row">
+                        <div class="avatar">
+                            <div class="w-16 h-16 rounded-full">
+                                <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                            </div>
+                        </div>
+                        <div class="flex-1 space-y-2">
+                            <h2 class="card-title font-bold">Python Full Course for free</h2>
+                            <div class="flex items-center gap-2">
+                                <span>Awlad Hossain</span>
+                                <span><img src="images/verified.png" alt=""></span>
+                            </div>
+                            <p>91K view</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer footer-center py-20 bg-base-300 text-base-content">
+        <aside>
+            <p>Copyright © 2024 - All right reserved by tubeMa<span class="text-red-600">x</span></p>
+        </aside>
+    </footer>
 </body>
 
 </html>

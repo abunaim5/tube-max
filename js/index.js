@@ -55,4 +55,5 @@ const handleCategory = async (categoryId) => {
         cardContainer.appendChild(div);
     });
 };
+handleCategory('1000')
 loadCategory()
